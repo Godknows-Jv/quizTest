@@ -1,0 +1,152 @@
+.heading{
+    background-color: gray;
+    color:rgb(223, 202, 171);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+   
+
+    
+    
+}
+
+h1{
+    border: solid white 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+#test{
+    display: grid;
+    
+    
+}
+
+.questions{
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font: 16px sans-serif;
+    color: rgb(223, 202, 171);
+    background-color: black;
+}
+.details{
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font: 16px sans-serif;
+    color: rgb(223, 202, 171);
+    background-color: black;
+    display: grid;
+    gap: 50px;
+    
+      
+}
+
+#number,#username,#email{
+    background-color: rgb(33, 28, 28);
+    height: 60px;
+    font: 25px sans-serif;
+    color: rgb(212, 202, 155);
+    text-align: justify;
+    padding-left: 25px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: solid rgb(223, 202, 171);
+    
+
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    color:black;
+    background-color: bisque;
+    text-align: center;
+    font: 20px sans-serif;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+
+}
+button:hover{
+    color:bisque;
+    background-color: rgb(47, 45, 45);
+    cursor: pointer;
+
+}
+
+.action-buttons{
+    display:flex;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    gap: 80%;
+}
+#results{
+    /*display: grid;*/
+    color:bisque;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font: 16px sans-serif;
+    bottom: 100px;
+    background-color: rgb(24, 28, 32);
+    padding: 25px;
+    align-items: center;
+    border-radius: 25px;
+    display: none;
+    
+
+
+}
+#dashbord{
+    display: flex;
+    gap:3%;
+    text-align: center;
+    padding: 40px;
+    border: solid gray 2px;
+    border-radius: 10px;
+    
+}
+
+
+.correctQuestions, .wrongQuestions, #totalQuestions{
+    width: 30%;
+    align-items: center;
+    background-color: rgb(57, 57, 172);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wrongQuestions{
+    background-color:  rgb(172, 57, 57);
+}
+
+.correctQuestions{
+    background-color: rgb(57, 172, 74);
+}
+
+h2{
+    width: 100%;
+    border-bottom: solid gray 1px;
+    margin-top: 3;
+}
+#scoredigit{
+    background-color: rgba(0, 255, 0, 0.8);
+    text-align: center;
+    
+    border-radius: 5px;
+    
+}

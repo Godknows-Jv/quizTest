@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="test">
+        <div class="heading">
+            <h1>
+                AI QUIZ TEST ONE INTRODUCTION
+            </h1>
+        </div>
+        <div class="details">
+            <input type="text" id="username" placeholder="*name*">
+            <input type="email" id="email" placeholder="*email*">
+            <input type="number" placeholder="*TEL*" id="number">
+            
+        </div>
+        <div class="questions">
+            <div class="q">
+                <p>
+                    1.Which of the following is a component of an expert system ?
+                </p>
+                <br>
+                <input type="radio" id="q1sln1" name="sln1">
+                <label for="q1sln1">Inference Engine</label>
+                 <br>
+                <input type="radio" id="q1sln2" name="sln1">
+                <label for="q1sln2">Knowledge base</label>
+                 <br>
+                <input type="radio" id="q1sln3" name="sln1">
+                <label for="q1sln3">User Interface</label>
+                  <br>
+                <input type="radio" id="correct" name="sln1">
+                <label for="correct">All of the above</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    2.You are given a state graph with link costs. The running time of the algorithm should be a function of the number of states in the graph and the algorithm should guarantee that the path with shortest path cost is found.            
+                    <br>
+                    Choose the most efficient search method that meets the criteria indicated above.  
+                    
+                </p>
+                <br>
+                <input type="radio" id="q2sln1" name="sln2">
+                <label for="q2sln1">Greedy Best First Search</label>
+                 <br>
+                <input type="radio" id="q2sln2" name="sln2">
+                <label for="q2sln2">A*</label>
+                 <br>
+                <input type="radio" id="correct" name="sln2">
+                <label>Uniform Cost Search</label>
+                  <br>
+                <input type="radio" id="q2sln4" name="sln2">
+                <label for="q2sln4">Iterative Deepening Search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    3.Which search algorithm requires less memory?
+                </p>
+                <br>
+                <input type="radio" id="q3sln1" name="sln3">
+                <label for="q3sln1">DFS</label>
+                 <br>
+                <input type="radio" id="q3sln2" name="sln3">
+                <label for="q3sln2">BFS</label>
+                 <br>
+                <input type="radio" id="q3sln3" name="sln3">
+                <label for="q3sln3">UCS</label>
+                  <br>
+                <input type="radio" id="correct" name="sln3">
+                <label for="q3sln4">Linear Search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    4.You are given a state graph with link costs and consistent heuristic values on the  states. The running time of the algorithm should be a function of the number of states in the graph and the algorithm should guarantee that the path with shortest path cost is found.
+                      <br>
+                    Choose the most efficient search method that meets the criteria indicated above.  
+                    
+                </p>
+                <br>
+                <input type="radio" id="q4sln1" name="sln4">
+                <label for="q4sln1">Greed Best First Search</label>
+                 <br>
+                <input type="radio" id="correct" name="sln4">
+                <label for="q4sln2">A*</label>
+                 <br>
+                <input type="radio" id="q4sln3" name="sln4">
+                <label for="q4sln3">Uniform Cost Search</label>
+                  <br>
+                <input type="radio" id="q4sln4" name="sln4">
+                <label for="q4sln4">Iterative Deepening Search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    5.You are given a state graph with no link costs or heuristic values. The algorithm should find paths to a goal with the least number of states and the space requirements should depend on the depth of the first goal found.
+                    <br>
+                    Choose the most efficient search method that meets the criteria indicated above.  
+                    
+                </p>
+                <br>
+                <input type="radio" id="q5sln1" name="sln5">
+                <label for="q5sln1">Greedy Best First Search</label>
+                 <br>
+                <input type="radio" id="q5sln2" name="sln5">
+                <label for="q1sln2">A*</label>
+                 <br>
+                <input type="radio" id="q5sln3" name="sln5">
+                <label for="q5sln3">Uniform Cost Search</label>
+                  <br>
+                <input type="radio" id="correct" name="sln5">
+                <label for="q5sln4">Iterative Deepening Search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    6.Which agent deals with the happy and unhappy state?
+                </p>
+                <br>
+                <input type="radio" id="q6sln1" name="sln6">
+                <label for="q6sln1">Utility based agent</label>
+                 <br>
+                <input type="radio" id="q6sln2" name="sln6">
+                <label for="q6sln2">Simple Reflex agent</label>
+                 <br>
+                <input type="radio" id="correct" name="sln6">
+                <label for="q6sln3">Goal based agent</label>
+                  <br>
+                <input type="radio" id="q6sln4" name="sln6">
+                <label for="q6sln4">Learning agent</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    7.Which AI technique enables the computers to understand the associations and relationships between objects and events?
+                </p>
+                <br>
+                <input type="radio" id="q7sln1" name="sln7">
+                <label for="q1sln1">Heuristic Processing</label>
+                 <br>
+                <input type="radio" id="correct" name="sln7">
+                <label for="q7sln2">Cognitive Science</label>
+                 <br>
+                <input type="radio" id="q7sln3" name="sln7">
+                <label for="q7sln3">Relative Symbolism</label>
+                  <br>
+                <input type="radio" id="q7sln4" name="sln7">
+                <label for="q7sln4">Pattern Matching</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    8.What improves the performance of an AI agent so that it can make better decisions?
+                </p>
+                <br>
+                <input type="radio" id="q8sln1" name="sln8">
+                <label for="q1sln1">Change element</label>
+                 <br>
+                <input type="radio" id="q8sln2" name="sln8">
+                <label for="q8sln2">Learning element</label>
+                 <br>
+                <input type="radio" id="q8sln3" name="sln8">
+                <label for="q8sln3">Perfomance Measure</label>
+                  <br>
+                <input type="radio" id="correct" name="sln8">
+                <label for="q8sln4">Rewards</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    9.Agents behavior can be best described by____.
+                </p>
+                <br>
+                <input type="radio" id="q9sln1" name="sln9">
+                <label for="q1sln1">Perception sequence</label>
+                 <br>
+                <input type="radio" id="correct" name="sln9">
+                <label for="q9sln2">Agent function</label>
+                 <br>
+                <input type="radio" id="q9sln3" name="sln9">
+                <label for="q9sln3">Sensors and Actuators</label>
+                  <br>
+                <input type="radio" id="q9sln4" name="sln9">
+                <label for="q9sln4">Environment in which agent is performing</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    10.What is rational at any given time depends on   
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln10">
+                <label for="q10sln1">The performance measure that defines the criterion of success</label>
+                 <br>
+                <input type="radio" id="q10sln2" name="sln10">
+                <label for="q10sln2">The agent’s prior knowledge of the environment</label>
+                 <br>
+                <input type="radio" id="q10sln3" name="sln10">
+                <label for="q10sln3">The actions that the agent can perform</label>
+                  <br>
+                <input type="radio" id="q10sln4" name="sln10">
+                <label for="q10sln4">The agent’s percept sequence to date</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    11.Which search is implemented with an empty first-in-first-out queue?  
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln11">
+                <label for="q11sln1">Depth First Search</label>
+                 <br>
+                <input type="radio" id="q11sln2" name="sln11">
+                <label for="q11sln2">Breadth First Search</label>
+                 <br>
+                <input type="radio" id="q11sln3" name="sln11">
+                <label for="q11sln3">Bidirectional Search</label>
+                  <br>
+                <input type="radio" id="q11sln4" name="sln11">
+                <label for="q11sln4">None of the mentioned</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    12.What is the technique that was developed to determine whether a machine could or could not demonstrate the artificial intelligence called?
+                </p>
+                <br>
+                <input type="radio" id="q12sln1" name="sln12">
+                <label for="q12sln1">Inference Engine</label>
+                 <br>
+                <input type="radio" id="q12sln2" name="sln12">
+                <label for="q12sln2">Knowledge base</label>
+                 <br>
+                <input type="radio" id="q12sln3" name="sln12">
+                <label for="q12sln3">User Interface</label>
+                  <br>
+                <input type="radio" id="correct" name="sln12">
+                <label for="q12sln4">Turing test</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                   13.Which search algorithm imposes a fixed depth limit on nodes? 
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln13">
+                <label for="q13sln1">Depth-limited search</label>
+                 <br>
+                <input type="radio" id="q13sln2" name="sln13">
+                <label for="q13sln2">Depth-first search</label>
+                 <br>
+                <input type="radio" id="q13sln3" name="sln13">
+                <label for="q13sln3">Iterative deepening search</label>
+                  <br>
+                <input type="radio" id="q13sln4" name="sln13">
+                <label for="q13sln4">Bidirectional search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    14.What is the space complexity of Depth-first search?   
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln14">
+                <label for="q14sln1">O(bm)</label>
+                 <br>
+                <input type="radio" id="q1sln2" name="sln14">
+                <label for="q14sln2">O(b)</label>
+                 <br>
+                <input type="radio" id="q14sln3" name="sln14">
+                <label for="q14sln3">O(bl)</label>
+                  <br>
+                <input type="radio" id="q14sln4" name="sln14">
+                <label for="q14sln4">O(m)</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    15.If a robot can alter its own trajectory in response to external conditions, it is considered to be
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln15">
+                <label for="q15sln1">Intelligent</label>
+                 <br>
+                <input type="radio" id="q15sln2" name="sln15">
+                <label for="q15sln2">Mobile</label>
+                 <br>
+                <input type="radio" id="q15sln3" name="sln15">
+                <label for="q15sln3">Open loop</label>
+                  <br>
+                <input type="radio" id="q15sln4" name="sln15">
+                <label for="q15sln4">Non-servo</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    16.The exploration problem is where______.   
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln16">
+                <label for="q16sln1">Agent contains the knowledge of State and actions.</label>
+                 <br>
+                <input type="radio" id="q16sln2" name="sln16">
+                <label for="q16sln2">Agent does not contain the knowledge of State and actions.</label>
+                 <br>
+                <input type="radio" id="q16sln3" name="sln16">
+                <label for="q16sln3">Only actions are known to the agent.</label>
+                  <br>
+                <input type="radio" id="q16sln4" name="sln16">
+                <label for="q16sln4">None of the mentioned</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    17.The process of removing detail from a given state representation is called  
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln17">
+                <label for="q17sln1">Extraction</label>
+                 <br>
+                <input type="radio" id="q17sln2" name="sln17">
+                <label for="q17sln2">Abstraction</label>
+                 <br>
+                <input type="radio" id="q17sln3" name="sln17">
+                <label for="q17sln3">Information Retrieval</label>
+                  <br>
+                <input type="radio" id="q17sln4" name="sln17">
+                <label for="q17sln4">Mining of data</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    18.Web Crawler is a/an
+                </p>
+                <br>
+                <input type="radio" id="q1sln18" name="sln18">
+                <label for="q18sln1">Goal based agent</label>
+                 <br>
+                <input type="radio" id="q18sln2" name="sln18">
+                <label for="q18sln2">Problem-solving agent</label>
+                 <br>
+                <input type="radio" id="correct" name="sln18">
+                <label for="q18sln3">Simple reflex agent</label>
+                  <br>
+                <input type="radio" id="q18sln4" name="sln18">
+                <label for="q18sln4">Model based agent</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    19.A production rule consists of  
+                </p>
+                <br>
+                <input type="radio" id="q19sln1" name="sln19">
+                <label for="q19sln1">A set of rules</label>
+                 <br>
+                <input type="radio" id="q19sln2" name="sln19">
+                <label for="q19sln2">A sequence of steps</label>
+                 <br>
+                <input type="radio" id="correct" name="sln19">
+                <label for="q19sln3">A set of rules and sequence of steps</label>
+                  <br>
+                <input type="radio" id="q19sln4" name="sln19">
+                <label for="q19sln4">Arbitrary representation to problem</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    20.When is breadth first search is optimal?    
+                </p>
+                <br>
+                <input type="radio" id="correct" name="sln20">
+                <label for="q20sln1">When there is less number of nodes</label>
+                 <br>
+                <input type="radio" id="q20sln2" name="sln20">
+                <label for="q20sln2">When all step costs are equal</label>
+                 <br>
+                <input type="radio" id="q20sln3" name="sln20">
+                <label for="q20sln3">When all step costs are unequal</label>
+                  <br>
+                <input type="radio" id="q20sln4" name="sln20">
+                <label for="q20sln4">None of the mentioned</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                   21.Which search implements stack operation for searching the states?  
+                </p>
+                <br>
+                <input type="radio" id="q21sln1" name="sln21">
+                <label for="q21sln1">Depth-limited search</label>
+                 <br>
+                <input type="radio" id="q21sln2" name="sln21">
+                <label for="q21sln2">Depth-first search</label>
+                 <br>
+                <input type="radio" id="correct" name="sln21">
+                <label for="q21sln3">Breadth-first search</label>
+                  <br>
+                <input type="radio" id="q21sln4" name="sln21">
+                <label for="q21sln4">Bidirectional search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    22.The term ___________ is used for a depth-first search that chooses values for one variable at a time and returns when a variable has no legal values left to assign.   
+                </p>
+                <br>
+                <input type="radio" id="q22sln1" name="sln22">
+                <label for="q22sln1">Forward search</label>
+                 <br>
+                <input type="radio" id="correct" name="sln22">
+                <label for="q22sln2">Backtrack search</label>
+                 <br>
+                <input type="radio" id="q22sln3" name="sln22">
+                <label for="q22sln3">Hill algorithm</label>
+                  <br>
+                <input type="radio" id="q22sln4" name="sln22">
+                <label for="q22sln4">Reverse-Down-Hill search</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    23.Consider a problem of preparing a schedule for a class of students. What type of problem is this?   
+                </p>
+                <br>
+                <input type="radio" id="q23sln1" name="sln23">
+                <label for="q23sln1">Search Problem</label>
+                 <br>
+                <input type="radio" id="q23sln2" name="sln23">
+                <label for="q23sln2">Backtrack Problem</label>
+                 <br>
+                <input type="radio" id="correct" name="sln23">
+                <label for="q23sln3">Constraint Satisfaction Problem</label>
+                  <br>
+                <input type="radio" id="q23sln4" name="sln23">
+                <label for="q23sln4">Planning Problem</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    24.General algorithm applied on game tree for making decision of win/lose is______
+                </p>
+                <br>
+                <input type="radio" id="q24sln1" name="sln24">
+                <label for="q24sln1">DFS/BFS Search Algorithms</label>
+                 <br>
+                <input type="radio" id="q24sln2" name="sln24">
+                <label for="q24sln2">Heuristic Search Algorithms</label>
+                 <br>
+                <input type="radio" id="q24sln3" name="sln24">
+                <label for="q24sln3">Greedy Search Algorithms</label>
+                  <br>
+                <input type="radio" id="correct" name="sln24">
+                <label for="q24sln4">MIN/MAX Algorithms</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    25.What is the complexity of minimax algorithm?
+                </p>
+                <br>
+                <input type="radio" id="251sln1" name="sln25">
+                <label for="q25sln1">Same as of DFS</label>
+                 <br>
+                <input type="radio" id="correct" name="sln25">
+                <label for="q25sln2">Space – bm and time – bm</label>
+                 <br>
+                <input type="radio" id="q25sln3" name="sln25">
+                <label for="q25sln3">Same as BFS</label>
+                  <br>
+                <input type="radio" id="q25sln4" name="sln25">
+                <label for="q25sln4">Time – b and space – bm</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    26.A face recognition system is based on
+                </p>
+                <br>
+                <input type="radio" id="q26sln1" name="sln26">
+                <label for="q26sln1">Weak AI Approach</label>
+                 <br>
+                <input type="radio" id="correct" name="sln26">
+                <label for="q26sln2">Cognitive AI Approach</label>
+                 <br>
+                <input type="radio" id="q26sln3" name="sln26">
+                <label for="q26sln3">Strong AI Approach</label>
+                  <br>
+                <input type="radio" id="q26sln4" name="sln26">
+                <label for="q26sln4">Applied AI Approach</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                   27.Which of the following is the function of an AI Agents?
+                </p>
+                <br>
+                <input type="radio" id="q27sln1" name="sln27">
+                <label for="q27sln1">To map the percept sequence to an action</label>
+                 <br>
+                <input type="radio" id="q27sln2" name="sln27">
+                <label for="q27sln2">To map the goal sequence to an action</label>
+                 <br>
+                <input type="radio" id="correct" name="sln27">
+                <label for="q27sln3">To work without direct interference from any external factor like humans</label>
+                  <br>
+                <input type="radio" id="q27sln4" name="sln27">
+                <label for="q27sln4">To map the environment sequence to an action</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    28.What is the term used to describe the common sense part of problem solving.
+                </p>
+                <br>
+                <input type="radio" id="q28sln1" name="sln28">
+                <label for="q28sln1">Analytic</label>
+                 <br>
+                <input type="radio" id="q28sln2" name="sln28">
+                <label for="q28sln2">Heuristic</label>
+                 <br>
+                <input type="radio" id="q28sln3" name="sln28">
+                <label for="q28sln3">Value based</label>
+                  <br>
+                <input type="radio" id="correct" name="sln28">
+                <label for="q28sln4">Critical</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    29.In AI, an environment is uncertain if______.
+                </p>
+                <br>
+                <input type="radio" id="q29sln1" name="sln29">
+                <label for="q29sln1">It is fully observable and sequantial</label>
+                 <br>
+                <input type="radio" id="correct" name="sln29">
+                <label for="q29sln2">It is partially observable and not deterministic</label>
+                 <br>
+                <input type="radio" id="q29sln3" name="sln29">
+                <label for="q29sln3">It is partially observable or not deterministic</label>
+                  <br>
+                <input type="radio" id="q29sln4" name="sln29">
+                <label for="q29sln4">It is fully observable and not deterministic</label>
+    
+            </div>
+            <div class="q">
+                <p>
+                    30.A simple reflex agent select actions based on_____.
+                </p>
+                <br>
+                <input type="radio" id="q30sln1" name="sln30">
+                <label for="q30sln1">percept history, completely ignoring the current percept</label>
+                 <br>
+                <input type="radio" id="correct" name="sln30">
+                <label for="q30sln2">current percept, completely ignoring the percept history</label>
+                 <br>
+                <input type="radio" id="q30sln3" name="sln30">
+                <label for="q30sln3">current percept and complete percept history</label>
+                  <br>
+                <input type="radio" id="q30sln4" name="sln30">
+                <label for="q30sln4">just the complete percept history</label>
+    
+            </div>
+            
+        </div>
+    
+        <div class="action-buttons">
+            <button id="clearButton">Clear</button>
+            <button onclick="submit()">Submit</button>
+            
+        </div>
+    </div>
+
+    <div id="results">
+        <div class="heading1">
+            <h1 id="heading1">Tapiwa Mutiwa's Results</h1>
+        </div>
+         
+         <div id="dashbord">
+            <div id="totalQuestions">
+                  <p id="Box1">
+                    30
+                  </p>
+                  <p id="comment">
+                    Total Questions
+                  </p>   
+            </div>
+            <div class="correctQuestions">
+                <p id="Box2">
+                    30
+                  </p>
+                  <p id="comment">
+                    Correct Answers
+                  </p>  
+            </div>
+            <div class="wrongQuestions">
+                <p id="Box3">
+                    0
+                  </p>
+                  <p id="comment">
+                    Wrong Answers
+                  </p>  
+            </div>
+         </div>
+        <div id="score">
+             <h2>Your score is:</h2>
+             <p id="scoredigit">
+                100%
+             </p>
+        </div>
+        <div id="rewards">
+            <h2>Rewards</h2>
+            <p id="status1">
+             You passed the test
+            </p>
+            <p id="status2">
+              You get +200pts 🏆🏆
+            </p>
+            
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
